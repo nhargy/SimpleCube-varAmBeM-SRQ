@@ -1,0 +1,37 @@
+#######################
+###   MACRO: AmBe   ###
+#######################
+
+# Distance units: [mm]  
+
+/control/verbose 1
+/run/verbose 1
+
+/geometry/build_moderators true
+
+/source/isIon 0
+/source/pdgSource 2112
+/source/energySource -1
+/source/spectrumFile /home/hargy/Scientific/Projects/Colour-Centres/SimpleCube-varAmBe-WIS/data/edist_Neutrons_AmBe_01.dat
+
+/source/isSecondSource 1
+/source/pdgSource2 22
+/source/energySource 4.438
+/source/fraction2 0.6
+
+# Cube position
+/cube/xCube 72.83
+/cube/yCube 72.83
+
+# Cube dimensions
+/cube/Cube_Width 10
+/cube/Cube_Length 10
+/cube/Cube_Height 10
+
+# Fiducial Cube dimensions
+/cube/FiducialCube_Width 8
+/cube/FiducialCube_Length 8
+/cube/FiducialCube_Height 8
+
+/run/initialize
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+3 year
