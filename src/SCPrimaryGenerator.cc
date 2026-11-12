@@ -121,6 +121,7 @@ void SCPrimaryGenerator::ApplyMessengers() {
     pdgSource2     = 22;
     energySource2  = 4.438;
     fraction2      = 0.6;
+    spectrumFile   = "/srv01/xenon/nadavh/SimpleCube-varAmBeM-SRQ/data/edist_Neutrons_AmBe_01.dat"; 
 }
 
 void SCPrimaryGenerator::ensureSpectrumLoaded()

@@ -147,7 +147,7 @@ void SCDetectorConstruction::DefineGeometryParameters()
     m_hGeometryParameters["Room_Width"]     = 3960. *mm;
     m_hGeometryParameters["Room_Length"]    = 3960. *mm;
     m_hGeometryParameters["Room_Height"]    = 2470. *mm;
-    m_hGeometryParameters["Room_Thickness"] =  400. *mm;
+    m_hGeometryParameters["Room_Thickness"] =  600. *mm;
 
     //============================== Profile ==================================
     m_hGeometryParameters["Profile_Width"]     =  40. *mm;

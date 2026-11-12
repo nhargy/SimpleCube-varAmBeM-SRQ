@@ -12,11 +12,11 @@
 /source/isIon 0
 /source/pdgSource 2112
 /source/energySource -1
-/source/spectrumFile /home/hargy/Scientific/Projects/Colour-Centres/SimpleCube-varAmBe-WIS/data/edist_Neutrons_AmBe_01.dat
+/source/spectrumFile /srv01/xenon/nadavh/SimpleCube-varAmBeM-SRQ/data/edist_Neutrons_AmBe_01.dat
 
 /source/isSecondSource 1
 /source/pdgSource2 22
-/source/energySource 4.438
+/source/energySource2 4.438
 /source/fraction2 0.6
 
 # Cube position
